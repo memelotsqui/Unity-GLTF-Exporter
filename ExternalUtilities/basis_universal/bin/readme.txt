@@ -1,0 +1,1 @@
+basisud -ktx2 -q 255 -comp_level 5 C:\Users\William\Desktop\GLTF\exports_overwrite\sdsd1\models\img_0.png

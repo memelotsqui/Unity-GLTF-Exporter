@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b25f5645d64536f468fd3c03eece58ad, type: 3}
+  m_Name: SO_GLTF_Options_omi_basic
+  m_EditorClassIdentifier: 
+  exportGameObjectName: 1
+  exportMaterialName: 1
+  exportTexturesName: 1
+  exportCameras: 0
+  exportInactive: 1
+  exportGameObjectsTag: 1
+  exportGameObjectsLayer: 1
+  exportBatching: 1
+  exportNavMesh: 1
+  blockLeafNodesCreation: 1
+  exportAnimations: 1
+  reduceGLTFChars: 0
+  exportNormals: 1
+  exportLightmapUVs: 1
+  convertToGLB: 0
+  createUVOffsetExtras: 0
+  exportSubmeshesInExtra: 0
+  colorTextureSaturation: 1
+  metallicMultiplier: 1
+  smoothnessMultiplier: 1
+  exportSeparatedAlphaMap: 0
+  exportTextureType: 0
+  fallbackGLTFTexture: 0
+  allImagesDivideFactor: 1
+  overrideLightmapDivideFactor: -1
+  overrideDefaultDivideFactor: -1
+  overrideCubemapDivideFactor: -1
+  overrideMetallicSmoothnessDivideFactor: -1
+  overrideNormalDivideFactor: -1
+  allImagesQuality: 90
+  overrideLightmapQuality: 0
+  overrideNormalQuality: 0
+  overrideMetallicSmoothnessQuality: 0
+  overrideCubemapQuality: 0
+  overrideDefaultQuality: 0
+  overrideLightmapExportTextureType: 0
+  overrideNormalExportTextureType: -1
+  overrideMetallicSmoothnessExportTextureType: -1
+  overrideDefaultExportTextureType: -1
+  overrideCubemapTextureType: 0
+  maxLightmapClamp: 5
+  saturationLightmap: 1
+  whiteImageForNonStaticLightmaps: 0
+  lightmapIntensityMultiplier: 1
+  lightmapContrastCheat: 1
+  quantizeGLTF: 0
+  quantizeMainUVsTo: 1
+  quantizeLightUVsTo: 1
+  quantizeVerticesTo: 2
+  quantizeNormalsTo: 0
+  exportSceneSkyboxEnvironment: 0
+  exportSceneSkyboxBackground: 0
+  createCubeForSkybox: 0
+  cubeSkyboxScale: 1
+  exportSceneSkyboxBackgroundEvenDefault: 0
+  exportSceneFog: 0
+  overrideEnvironmentQuality: 0
+  extraExportMainCameraInGLTF: 0
