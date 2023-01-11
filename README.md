@@ -1,6 +1,10 @@
 # Unity-GLTF-Exporter
 Export from unity to glTF
 
+*Requires version 2022.1 or above
+
+
+
 Note: I havent tried on Mac (and i dont think its working there), but I will try to add support on later time.
 
 Important Setup -> 
