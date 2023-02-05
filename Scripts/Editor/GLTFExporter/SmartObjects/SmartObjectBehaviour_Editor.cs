@@ -15,9 +15,9 @@ namespace WEBGL_EXPORTER.GLTF
         }
         public override void OnInspectorGUI()
         {
-            //GUI.enabled = false;
-            myScript.javascript = (TextAsset)EditorGUILayout.ObjectField("Javascript",myScript.javascript,typeof(TextAsset), false);
-            //GUI.enabled = true;
+            GUI.enabled = false;
+            myScript.javascript = EditorGUILayout.ObjectField("Javascript",myScript.javascript,typeof(Object), false);
+            GUI.enabled = true;
         }
     }
 }

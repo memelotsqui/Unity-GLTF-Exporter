@@ -6,7 +6,7 @@ namespace WEBGL_EXPORTER.GLTF
 {
     public class SmartObjectBehaviour : MonoBehaviour
     {
-        public TextAsset javascript;
+        public Object javascript;
         private void Start()
         {
             // do nothing, just need the checkbox

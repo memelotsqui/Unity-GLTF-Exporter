@@ -49,7 +49,7 @@ namespace WEBGL_EXPORTER.GLTF
             foreach (string st in paths)
             {
                 Debug.Log(st);
-                    if (!st.EndsWith(".js"))
+                    if (!st.EndsWith(".jsmart"))
                         return false;
             }
             return true;
@@ -80,7 +80,7 @@ namespace WEBGL_EXPORTER.GLTF
                 // we attach component X, associated with asset X.
                 var smartBehaviour = target.AddComponent<SmartObjectBehaviour>();
                 // we place asset X within component X.
-                smartBehaviour.javascript = ob as TextAsset;
+                smartBehaviour.javascript = ob;// as TextAsset;
             }
         }
         static void AddComponentToObject(Object[] targets, Object [] objectReferences, string [] objectPaths)
@@ -96,10 +96,10 @@ namespace WEBGL_EXPORTER.GLTF
                     
                     // we attach component X, associated with asset X.
                     var smartBehaviour = go.AddComponent<SmartObjectBehaviour>();
-                   // Undo.RegisterCreatedObjectUndo(smartBehaviour, "Add smart object component to gameObjects");
-                   
+                    // Undo.RegisterCreatedObjectUndo(smartBehaviour, "Add smart object component to gameObjects");
+
                     // we place asset X within component X.
-                    smartBehaviour.javascript = ob as TextAsset;
+                    smartBehaviour.javascript = ob;// as TextAsset;
                     //Undo.CollapseUndoOperations(undoID);
                 }
             }
