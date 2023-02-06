@@ -1,0 +1,34 @@
+class RotateObject extends ObjectComponent{
+    //test:GameObject
+	tt:string
+    num:number
+	cold:string
+	newValue:number
+    
+	
+
+    onEnable(){
+        console.log(this.test)
+    }
+    onLoad(){
+
+    }
+    start(){
+
+    }
+
+    update(){
+
+    }
+
+
+	//constructor(object, smart){
+		//super(object)
+		//const userData = object.userData.RotateObject
+
+		// int, float, string, array
+
+
+		//this.value = userData.value; // int
+	//}
+}
